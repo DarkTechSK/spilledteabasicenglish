@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+	<title>  Spilled Tea Basic English </title>
+	<meta chaset="TIS-620">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/png" href="pic/Teacup.png">
+ </head>
+ <body>
+	<div id="cotainer">
+<div class="anime">
+<!--แสดงส่วนหัว -->
+
+
+
+	<!--แสดงส่วนเมนู -->
+
+		<nav>
+<section>
+			<img src="pic/bannerC.png" width="100%" height="auto" position="relative">
+		</section>
+
+
+		<section>
+			<div class="fader">
+				Click here <img src="pic/arro.png" width="50px"><br>
+			<center>	for menu</center>
+			</div>
+		</section>
+
+			<section>
+
+				<a href="#">
+
+					<span style="cursor:pointer" onclick="openNav()"><h1>&#9776;</h1></span>
+
+				</a>
+				<img src="pic/book.png" width="100px" top="0" position="relative" float="center">
+		</section>
+
+
+		 </nav>
+
+
+
+
+
+<!--แสดงส่วนขวา-->
+	<div id="aside">
+		<aside>
+			<section>
+				<div>ผู้จัดทำเว็ปไซต์</div>
+				<ul>
+					<li> <img src="pic/face.png"width="20px"> <a href="https://www.facebook.com/napassadol/">นาย นภัสดล พยัคฆพงษ์</a> </li>
+					<li> <img src="pic/face.png"width="20px"> <a href="https://www.facebook.com/teerapat.chaphirom">นาย ธีรพัฒน์ ชาภิรมย์</a> </li>
+					<li> <img src="pic/gth.png"width="20px">  mineshocksk@gmail.com</li>
+				</ul>
+
+			</section>
+
+			<section>
+				<div>เนื้อหาเริ่มต้น</div>
+				<ul>
+					<li><a href="o2.html">ตัวอักษรภาษาอังกฤษ สระภาษาอังกฤษ</a></li>
+					<li><a href="o1.html">Part of speech หน้าที่ของคำ</a></li>
+				</ul>
+</section>
+
+		 </aside>
+</div>
+
+<!--แสดงส่วนซ้าย-->
+		<article>
+
+			<section>
+
+<center>
+	<div class="gth">
+
+</div>
+</center>
+
+
+			</section>
+
+			<section>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		</section>
+
+		 </article>
+
+		 <div id="myNav" class="overlay">
+
+ <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+ <div class="overlay-content">
+ <img src="pic/bri.png" width="30%">
+		 <a href="index.html">Home</a>
+	 <a href="Noun.html">Nouns คำนาม</a>
+	 <a href="Determiner.html">Determiner คํานําหน้านาม</a>
+	 <a href="A_An_The.html">การใช้ a / an / the</a>
+	 <a href="Verb.html">Verbs คำกริยาในภาษาอังกฤษ</a>
+	<a href="SES.html">การเติม s, es </a>
+	<a href="Pronoun.html">Pronouns คำสรรพนาม</a>
+
+ </div>
+ </div>
+
+
+
+ <script>
+ function openNav() {
+ document.getElementById("myNav").style.width = "30%";
+ document.getElementById("myNav").style.opacity = "1";
+
+ }
+
+ function closeNav() {
+ document.getElementById("myNav").style.width = "0%";
+ document.getElementById("myNav").style.opacity = "0";
+
+ }
+ </script>
+
+ <script>
+ window.onscroll = function() {myFunction()};
+
+ var nav = document.getElementById("nav");
+ var sticky = nav.offsetTop;
+
+ function myFunction() {
+   if (window.pageYOffset >= sticky) {
+     nav.classList.add("sticky")
+   } else {
+     nav.classList.remove("sticky");
+   }
+ }
+ </script>
+
+
+	<!--แสดงส่วนล่าง-->
+		<footer>
+
+			<marquee direction="down" behavior="alternate" height="40px">
+  <marquee behavior="alternate">
+    <img src="pic/Kermit.png" width="40px"> It's tea time
+  </marquee>
+</marquee>
+</footer>
+</div>
+			</div>
+
+ </body>
+</html>
